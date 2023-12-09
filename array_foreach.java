@@ -9,6 +9,7 @@ class MyArray
     MyArray(int n, int val)
     {
         //allocating memory for arr
+        //declaration and allocation can be merged into one statement as well: int arr[] = new int[10];
         arr = new int[n];
         for(int i = 0; i<n; i++)
         {
