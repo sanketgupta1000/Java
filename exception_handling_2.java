@@ -22,5 +22,6 @@ class Unchecked
         //this is because in most cases, /0 is such an exception from which it is not possible to recover
         int n2 = scan.nextInt();
         System.out.println(n1/n2);
+        scan.close();
     }
 }
